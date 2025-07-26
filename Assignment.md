@@ -14,7 +14,6 @@
 -**
 
 ## 4. Screenshots of Key GitHub Features
-
 - **Full Name**:
 - **Admission Number**:
 - **GitHub Username**:
