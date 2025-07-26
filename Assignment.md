@@ -2,7 +2,6 @@
 
 ## 1. Student Details
 
-
 - **Full Name**: Cecilia Theresa Agonga
 - **GitHub Username**: CcTheresa
 - **Email**: ceciliaagonga@strathmore.edu
@@ -15,8 +14,6 @@
 -**
 
 ## 4. Screenshots of Key GitHub Features
-
-
 - **Full Name**:
 - **Admission Number**:
 - **GitHub Username**:
@@ -93,3 +90,4 @@ Include screenshots that demonstrate how you used GitHub to manage your project.
 ### E. Merge Conflict Resolution
 
 - Screenshot of a resolved merge conflict (in a pull request, commit history, or your local terminal/GitHub Desktop).
+

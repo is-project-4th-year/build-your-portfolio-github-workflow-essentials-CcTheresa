@@ -106,5 +106,3 @@ Before submitting your project, ensure the following:
 - [ ] Completed and updated the `Assignment.md` file which will be marked and graded
 
 
-
-
