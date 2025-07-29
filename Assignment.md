@@ -52,19 +52,12 @@ Write about **4 things** you expected to learn during the Git crash course (yes,
 
 Include screenshots that demonstrate how you used GitHub to manage your project. For each screenshot, write a short caption explaining what it shows.
 
-> Upload the screenshots to your GitHub repository and reference them here using Markdown image syntax:
-> (you could just simply copy and paste the image into the Assignment.md)
-
-```markdown
-![Caption](path/to/your/image.png)
-```
-
 
 ### A. Milestones and Issues
 
 - Screenshot showing your milestone(s) and the issues linked to it.
 
-![Milestones](https://github.com/user-attachments/assets/fe7b7cd1-756d-4a16-8caa-d586b246d2b3)
+![Milestones](https://github.com/user-attachments/assets/f5cf8352-3e5a-48a7-92bb-44a3b338b594)
 
 ### B. Project Board
 
@@ -76,7 +69,7 @@ Include screenshots that demonstrate how you used GitHub to manage your project.
 ### C. Branching
 - Screenshot showing your branch list with meaningful naming (e.g., 'feature/about-section', 'fix/readme-typo').
   
-<img width="1837" height="492" alt="Screenshot 2025-07-29 141008" src="https://github.com/user-attachments/assets/9254c359-6ad0-4270-ab84-ecbb7975da27" />
+![Branching](https://github.com/user-attachments/assets/9254c359-6ad0-4270-ab84-ecbb7975da27)
 
 
 ### D. Pull Requests
@@ -86,3 +79,7 @@ Include screenshots that demonstrate how you used GitHub to manage your project.
 
 ### E. Merge Conflict Resolution
 - Screenshot of a resolved merge conflict (in a pull request, commit history, or your local terminal/GitHub Desktop).
+![Merge Conflict](https://github.com/user-attachments/assets/8c0e5a70-11d1-406a-9d7d-fbf78b3f1677)
+
+<img width="1857" height="930" alt="Screenshot 2025-07-29 145812" src="https://github.com/user-attachments/assets/88e57414-0d72-42fd-b097-a5c6bae701f6" />
+
