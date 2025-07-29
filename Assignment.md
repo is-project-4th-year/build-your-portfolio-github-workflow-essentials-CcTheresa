@@ -61,16 +61,22 @@ Include screenshots that demonstrate how you used GitHub to manage your project.
 
 - Screenshot showing your milestone(s) and the issues linked to it.
 
+<img width="1889" height="815" alt="Milestones" src="https://github.com/user-attachments/assets/fe7b7cd1-756d-4a16-8caa-d586b246d2b3" />
 
 ### B. Project Board
 
 - Screenshot of your GitHub Project Board with issues organized into columns (e.g., To Do, In Progress, Done).
+
+  
+<img width="1907" height="807" alt="Project Board" src="https://github.com/user-attachments/assets/096d5f24-8ea7-4f21-9b15-354e321de17c" />
 
 ### C. Branching
 - Screenshot showing your branch list with meaningful naming (e.g., 'feature/about-section', 'fix/readme-typo').
 
 ### D. Pull Requests
 - Screenshot of a pull request that’s either open or merged and linked to a related issue.
+  
+<img width="1883" height="808" alt="PR" src="https://github.com/user-attachments/assets/9f4384c7-9f11-4fe6-936a-5632ca4e348a" />
 
 ### E. Merge Conflict Resolution
 - Screenshot of a resolved merge conflict (in a pull request, commit history, or your local terminal/GitHub Desktop).
