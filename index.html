@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COmpatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cecilia's Personal portfolio</title>
+    <link rel="icon" type="image/png" href="imgs/cc.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/640bc31826.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- this is the home section -->
+    <div id="header">
+         <div class="container">
+            <nav>
+                <img src="imgs/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                  <li><a href="#header">Home</a></li>  
+                  <li><a href="#about">About me</a></li>  
+                  <li><a href="#services">Services</a></li>  
+                  <li><a href="#portfolio">My Work</a></li>  
+                  <li><a href="#contact">Contact</a></li>
+                  <i class="fa-solid fa-xmark" onclick="closemenu()"></i>  
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1> Hi, Im <span>Cecilia </span><br> from Nairobi,Kenya</h1>
+            </div>
+         </div>
+    </div>
+    <!--home section ends here-->
+
+<!--about-->
+    <div id="about">
+        <div class="container">
+             <div class="row">
+
+                <div class="about-col-1">                       
+                    <img src="imgs/chichi.jpeg" >
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Cecilia Theresa and I am an upcoming developer.I am passionate about thoughtful tech that offers 
+                        intelligent assistance and user-centered design.
+<!-- skills,education and professional experience -->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- skills -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <ul>
+                                <li><span>UI/UX Design</span><br>
+                                    I design thoughtful and aesthetically pleasing user interfaces and experiences for web and mobile applications.
+                                </li>
+                                <li><span>Machine Learning Enthusiast</span><br>
+                                    Passionate about leveraging machine learning algorithms to develop innovative, data-informed solutions.
+                                </li>
+                                <li><span>Python Automation</span><br>
+                                    Exploring how to use Python to simplify repetitive taks and build lightweight automation tools that improve efficiency. </li>
+                                <li><span>Mobile App Development</span><br>
+                                    Developing and designing cross-platform, mobile based applications that combine functionality, responsiveness and visual appeal.
+                                </li>
+                            </ul>
+                            </ul>
+                    </div>
+                    <!-- experience -->
+                    <div class="tab-contents"id="experience">
+                        <ul>
+                            <ul>
+                                <li><span>02/2025-03/2025</span><br>
+                                    <br>
+                                    <span class="bold"> Data Migration Assistant - Dynasoft Solutions Ltd.</span>
+                                    <br> Assisted in migrating data from legacy systems to new ERP based platforms, ensuring data integrity and accuracy.        
+                                </li><br>
+
+                                <li><span>01/2024-03/2024</span><br>
+                                    <br>
+                                    <span class="bold"> Voluntary Library Assistant - McMillan Memorial Library</span>
+                                    <br> Assisted in cataloging and organizing library resources, enhancing user experience and accessibility.
+                            </ul>
+                            </ul>
+                    </div>
+
+                    <!-- education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <ul>
+                                <li><span>Bachelor of Informatics & Computer Science - Strathmore University</span><br>
+                                    
+                                    07/2022 - present  </li>
+                                <li><span>K.C.S.E The Kenya High School</span>  
+                                    <br>            
+                                 01/2018 - 04/2022 <br>
+                                  
+                                 <i> Grade: A(83 points)</i>
+
+                                </li>
+                               
+                            </ul>
+                            </ul>
+                    </div>
+                </div>
+
+             </div>
+        </div>
+    </div>
+
+    
+    <!-- services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Machine Learning Enthusiast</h2>
+                    <p>I am passionate about building intelligent systems that learn from data and can provide insights for solving real-world problems.
+                       I focus on integrating ML models into intuitive solutions, from chatbots to sentiment analysis tools.
+                        <br><br>
+                       Tools: Python, TensorFlow, Scikit-learn. </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code-branch"></i>
+                      <h2>UI/UXDesign</h2>
+                    <p>I aim to create intuitive and angaing user experiences by blending aesthetics with functionality. <br><br>
+                    Tools: Figma, Canva</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                        <h2>Mobile App Design</h2>
+                    <p>I develop & design cross-platfrom mobile apps that are aesthetically pleasing and user-centric.
+                        My focus is on creating intuitive interfaces that enhance user experience. <br><br>
+                        Tools : Figma, Flutter,Kotlin, Java.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- services -->
+
+    <!-- my work -->
+<div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="imgs/Journal.jpg">
+          <div class="layer">
+            <h3>Notia</h3>
+            <p>An intelligent mobile app for journaling and emotinal tracking for mental health support.
+               Languages used were Python, Dart.
+            </p>
+            <a href="#" title="Coming Soon"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="imgs/Expenses.jpg">
+          <div class="layer">
+            <h3>My Expenses</h3>
+            <p>Designed a mobile app for tracking expenses, also allows for budgeting.
+               Languages used were Kotlin and Java.
+            </p>
+            <a href="https://github.com/CcTheresa/MyExpenses"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="imgs/Farming.jpg">
+          <div class="layer">
+            <h3>E-commerce Website</h3>
+            <p>Developed & designed a website that connects farmers to demand and market to supply for agriculture products. 
+               Tools: Laravel, PHP, JS, CSS           </p>
+            <a href="https://github.com/CcTheresa/market-farmers?tab=readme-ov-file"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">More to come soon !</a>
+    </div>
+  </div>
+
+  <!-- contacts -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-envelope"></i>ceciliaagonga@gmail.com</p>
+                <!-- <p><i class="fa-sharp fa-solid fa-envelope"></i>cecilia.agonga@strathmore.edu</p> -->
+                <p><i class="fa-solid fa-square-phone"></i></i>0743330473</p>
+                <div class="social-icons">
+                    <!-- <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a> -->
+                    <!-- <a href="https://x.com/home"><i class="fa-brands fa-square-x-twitter"></i></a> -->
+                    <a href="https://linkedin.com/in/cecilia-theresa-76322a2b0/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/CcTheresa"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <!-- attach cv here when done -->
+                <a href="Cecilia's Resume.pdf" download class="btn btn2"> Download CV</a>
+  
+                </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <label for="name">Name</label>
+                <input type="text" name="Name" placeholder="Your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="Email" placeholder="Your Email" required>
+
+                <label for="message">Message</label>
+                <textarea name="Message" rows="5" placeholder="Write a message to Cecilia Here..."></textarea>
+                
+                <button type="submit" class="btn btn2">Submit</button>
+                <span id="msg" style="color: rgb(49, 159, 203); font-weight: bold;"></span>
+            </form>
+            
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright &copy Cecilia T.</p>
+  </div>
+      </div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0"; 
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"; 
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbywlyd6gL4gEbNo_eRrscZIPzj4C_wXEkoRjEA4Q43KdOHLu-VRqLCCYQywr-H6Jlg9/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="Message sent successfully."
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+ 
+</body>
+</html>
