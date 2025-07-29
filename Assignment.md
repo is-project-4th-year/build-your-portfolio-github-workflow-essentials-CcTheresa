@@ -25,6 +25,7 @@ Write about **4 things** you expected to learn during the Git crash course (yes,
 `Impact 💡`: This approach helped me keep my main branch stable while experimenting with new changes in feature branches before merging them back in.
 
 **2. Concept: Commit Messages**
+
 `Expectation 👀` : I assumed commits were just short notes about what I did, nothing too serious.
 
 `Reality 😅`: Commits actually follow structured conventions (like feat: or fix:), making the code history cleaner and easier to understand. It’s like commenting your code but for your version control history.
@@ -32,6 +33,7 @@ Write about **4 things** you expected to learn during the Git crash course (yes,
 `Impact 💡`: Using meaningful commit messages allowed me to track progress clearly and link commits to GitHub Issues for better project management.
 
 **3. Concept: Undoing Mistakes**
+
 `Expectation 👀` : I thought once you make a change and commit, theres no going back.
 
 `Reality 😅`: Git provides several commands for reverting changes, and safe ways to undo commits while preserving history i.e, git reset, git revert, git ammend etc.
@@ -39,6 +41,7 @@ Write about **4 things** you expected to learn during the Git crash course (yes,
 `Impact 💡`: This gave me more confidence while working on my portoflio and group assignmennt; knowing that any mistake can be undone before pushing to remote repo.
 
 **4. Concept: Collaboration**
+
 `Expectation 👀` : I believed GitHub was just a place to store code, and you needed to use other tools for project management and collaboration.
 
 `Reality 😅`: GitHub offers a full project management workflow: milestones, issues, project boards, and pull requests. It has features for reviewing and assigning reviewees within the project setup
@@ -61,22 +64,24 @@ Include screenshots that demonstrate how you used GitHub to manage your project.
 
 - Screenshot showing your milestone(s) and the issues linked to it.
 
-<img width="1889" height="815" alt="Milestones" src="https://github.com/user-attachments/assets/fe7b7cd1-756d-4a16-8caa-d586b246d2b3" />
+![Milestones](https://github.com/user-attachments/assets/fe7b7cd1-756d-4a16-8caa-d586b246d2b3)
 
 ### B. Project Board
 
 - Screenshot of your GitHub Project Board with issues organized into columns (e.g., To Do, In Progress, Done).
 
   
-<img width="1907" height="807" alt="Project Board" src="https://github.com/user-attachments/assets/096d5f24-8ea7-4f21-9b15-354e321de17c" />
+![Project Board](https://github.com/user-attachments/assets/096d5f24-8ea7-4f21-9b15-354e321de17c)
 
 ### C. Branching
 - Screenshot showing your branch list with meaningful naming (e.g., 'feature/about-section', 'fix/readme-typo').
+  
+![Branches](https://github.com/user-attachments/assets/e0ae22df-7c95-48b3-b396-839ac73c12d7")
 
 ### D. Pull Requests
 - Screenshot of a pull request that’s either open or merged and linked to a related issue.
   
-<img width="1883" height="808" alt="PR" src="https://github.com/user-attachments/assets/9f4384c7-9f11-4fe6-936a-5632ca4e348a" />
+![Pull Requests](https://github.com/user-attachments/assets/9f4384c7-9f11-4fe6-936a-5632ca4e348a)
 
 ### E. Merge Conflict Resolution
 - Screenshot of a resolved merge conflict (in a pull request, commit history, or your local terminal/GitHub Desktop).
