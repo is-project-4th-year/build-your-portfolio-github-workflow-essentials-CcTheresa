@@ -8,7 +8,7 @@
 
 ## 2. Deployed Portfolio Link
 
-- **GitHub Pages URL**: Deplyment Link goes here
+- **GitHub Pages URL**: https://cctheresa.github.io/portfolio-deploy/
 
 ## 3. Learnings from the Git Crash Program
 
