@@ -8,7 +8,7 @@
 
 ## 2. Deployed Portfolio Link
 
-- **GitHub Pages URL**:
+- **GitHub Pages URL**: Deplyment Link goes here
 
 ## 3. Learnings from the Git Crash Program
 
