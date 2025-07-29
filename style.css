@@ -4,6 +4,25 @@
     font-family: 'Poppins',sans-serif;
     box-sizing: border-box;
 }
+/* Tooltip for "Coming Soon" */
+a[title] {
+  position:relative;
+}
+
+a[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  top: -30px;
+  left: 40%;
+  transform: translateX(-50%);
+  background: #1e93e0;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0.9;
+}
 html{
     scroll-behavior: smooth;
 }
