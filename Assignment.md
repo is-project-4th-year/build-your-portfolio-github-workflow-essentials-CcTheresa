@@ -76,7 +76,8 @@ Include screenshots that demonstrate how you used GitHub to manage your project.
 ### C. Branching
 - Screenshot showing your branch list with meaningful naming (e.g., 'feature/about-section', 'fix/readme-typo').
   
-![Branches](https://github.com/user-attachments/assets/e0ae22df-7c95-48b3-b396-839ac73c12d7")
+<img width="1837" height="492" alt="Screenshot 2025-07-29 141008" src="https://github.com/user-attachments/assets/9254c359-6ad0-4270-ab84-ecbb7975da27" />
+
 
 ### D. Pull Requests
 - Screenshot of a pull request that’s either open or merged and linked to a related issue.
